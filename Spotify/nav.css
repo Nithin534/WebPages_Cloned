@@ -1,0 +1,53 @@
+@import url("./main.css");
+@import url("./foot.css");
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--font-family,CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif)),Helvetica,Arial,sans-serif;
+    overflow-x: hidden;
+}
+#nav{
+    /* border: 3px solid; */
+    height: 77px;
+    background-color: black;
+    color: white;
+}
+#sub-nav{
+    /* border: 2px solid; */
+    height: inherit;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#sub-nav span svg{
+    height: 2.1em;
+    fill: white;
+    cursor: pointer;
+    position: relative;
+    right: 50px;
+}
+#sub-nav ol{
+    /* border: 2px solid blue; */
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 500px;
+    position: absolute;
+    left: 650px;
+}
+#sub-nav ol li {
+    font-size: 15px;
+    font-weight: 600;
+}
+#sub-nav ol li:hover{
+    color: lightgreen;
+    cursor: pointer;
+}
+

@@ -1,0 +1,107 @@
+#footer{
+    border: 2px solid;
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 500px;
+    height: 150vh;
+}
+.foot1{
+    position: relative;
+    top: 90px;
+    left: 90px;
+}
+.foot1 h4{
+    font-size: 25px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.foot1 h5{
+    font-size: 17px;
+    font-weight: 400;
+    position: relative;
+    top: 30px;
+    cursor: pointer;
+}
+.foot2{
+    position: relative;
+    top: 230px;
+}
+.rowfoot{
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-around;
+    width: 180vh;
+    list-style: none;
+    height: 400px;
+}
+.col1{
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 390px;
+    list-style: none;
+    font-size: 16px;
+}
+.col1 li:hover{
+    color: gray;
+    cursor: pointer;
+}
+.col2{
+    height: 270px;
+}
+.col3{
+    height: 150px;
+}
+.col4{
+    height: 150px;
+}
+.col1 li:first-child{
+    font-size: 19px;
+    font-weight: 600;
+    color: white;
+    cursor: text;
+}
+.foot3{
+    position: relative;
+    top: 300px;
+}
+.icon{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    position: relative;
+    left: 50px;
+    list-style: none;
+}
+.icon li{
+    /* border: 1px solid; */
+    padding: 10px 14px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.icon li:hover{
+    background-color: rgba(128, 128, 128, 0.417);
+}
+.foot3 p{
+    position: relative;
+    left: 87px;
+    top: 50px;
+    font-size: small;
+    color: grey;
+}
+.subfoot{
+    /* border: 2px solid; */
+    display: flex;
+    list-style: none;
+    width: 320px;
+    justify-content: space-around;
+    font-size: small;
+    color: grey;
+    position: relative;
+    left: 940px;
+    top: 25px;
+    cursor: pointer;
+}

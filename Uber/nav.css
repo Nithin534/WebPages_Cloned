@@ -1,0 +1,91 @@
+@import url(./main.css);
+@import url(./footer.css);
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#nav{
+    /* border: 2px solid; */
+    color: white;
+    background-color: black;
+    
+}
+.left{
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-evenly; 
+    width: 400px;
+    position: relative;
+    left: 50px;
+    top: 10px;
+    /* align-items: center; */
+}
+.left h1{
+    font-size: 25px;
+    font-weight: 400;
+}
+.left h1 a{
+    text-decoration: none;
+    color: white;
+}
+.subleft{
+    /* border: 2px solid; */
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 300px;
+    align-items: center;
+    position: relative;
+    left: 30px;
+}
+.subleft li{
+    /* border: 2px solid; */
+    padding: 5px;
+    border-radius: 20px;
+
+}
+.subleft li:hover{
+    background-color: rgba(128, 128, 128, 0.296);
+    cursor: pointer;
+}
+.subleft li a{
+    color: white;
+    text-decoration: none;
+}
+.right{
+    /* border: 2px solid; */
+    position: relative;
+    left: 1040px;
+    bottom: 17px;
+}
+.subright{
+    /* border: 2px solid; */
+    display: flex;
+    width: 280px;
+    list-style: none;
+    justify-content: space-around;
+}
+.subright li{
+    /* border: 2px solid; */
+    padding: 5px;
+    border-radius: 20px;
+
+}
+.subright li a{
+    color: white;
+    text-decoration: none;
+}
+.subright li:hover{
+    background-color: rgba(128, 128, 128, 0.296);
+    cursor: pointer;
+}
+#sign{
+    background-color: white;
+    color: black;
+    font-weight: 300;
+}
